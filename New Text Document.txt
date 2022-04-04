@@ -1,0 +1,41 @@
+Hi Sammy,
+
+Here is your new task, one( 1)  for Front-End Developer and (2)one for Back-End Developer
+
+1. Create a blog theme using bootstrap 4. (3-5 Day)
+                * Home Page
+                * Single Page
+                * Category Page
+                * Tag Page
+                * Search Page
+                * Sidebar
+                                > Search
+                                > Recent Post
+                                > Popular Post
+                                > Categories
+                                > Tags
+•	Login Page
+•	Admin All Post Add Page
+•	All Post View Page
+•	Category & Tag Add Page
+•	Category & Tag View Page (With manage options & Filter Option)
+•	News Letter- send blog alert with a smart email template
+
+
+2. Make the blog functionality (All above) using CodeIgniter/PHP (7-10 Day)
+
+
+Kind Regards,
+
+Daniel
+
+(Head of HR)
+
+?	UK: +44 203 7692264 Ext : 1010
+?	US: +1 646 564 5692 Ext : 1010
+?	www.staff-india.com
+	
+ 
+This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. The recipient should check this email and any attachments for the presence of viruses. Staff India accepts no liability for any damage caused by any virus transmitted by this email. 
+Please THINK before you PRINT this e-mail. UK businesses use 2 million tones of paper each year  
+

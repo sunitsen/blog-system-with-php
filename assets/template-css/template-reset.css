@@ -48,3 +48,47 @@ a {
 .container {
     max-width: 1500px;
 }
+
+.preTopNav-Items {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.preTopNav-Items svg {
+    color: white;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: calc(250px + 20px + 7px + 7px);
+    border-radius: 0px;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    position: relative;
+    padding: 0rem .5rem 0rem 1rem;
+}
+
+.search input {
+    position: absolute;
+    right: 0px;
+    width: 245px;
+    padding: 3px 10px;
+    font-size: 16px;
+    transform: translateX(calc(100% + 34px));
+    transition: transform 0.5s ease-in-out;
+}
+
+.search.active input {
+    transform: translateX(-34px);
+}
+
+.search.active {
+    background: #e93314;
+    transition: box-shadow 1.5s;
+}

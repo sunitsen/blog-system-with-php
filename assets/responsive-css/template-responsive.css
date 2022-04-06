@@ -83,3 +83,18 @@
 	  flex-wrap: wrap;
 	}
 	  }
+	  /*---------------------------singlepage----------------------*/
+	  @media only screen and (max-width: 575px){
+		.gallery{
+
+		  justify-content: center !important;
+		}
+		.gallery a{
+		  width: 48% !important;
+		  margin: 10px auto !important;
+		   
+		}
+		.search-bar{
+			justify-content: center !important;
+		}
+	  }

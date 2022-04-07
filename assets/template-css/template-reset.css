@@ -43,52 +43,100 @@ a {
 
 .col-12 {
     padding: .5rem;
+    transition: .5s ease;
 }
 
 .container {
     max-width: 1500px;
 }
 
-.preTopNav-Items {
+
+
+
+
+
+/*==============search bar===========*/
+
+.subscribe {
     display: flex;
-    flex-flow: row wrap;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    justify-content: start;
+    align-items: center;
 }
 
-.preTopNav-Items svg {
+.subscribe input {
+    background: #343a40;
+    border: none;
+    width: 80%;
+    height: 50px;
+    padding-left: 1rem;
+    color: white;
+}
+
+.subscribe button {
+    height: 50px;
+    border: none;
+    background: #ff4847;
+    text-transform: capitalize;
     color: white;
     cursor: pointer;
+    padding: 0rem 1rem 0rem 1rem;
+    font-size: 1.2rem;
 }
-
-.search {
+.search-bar {
     display: flex;
+    justify-content: start;
     align-items: center;
-    justify-content: flex-end;
-    width: calc(250px + 20px + 7px + 7px);
-    border-radius: 0px;
-    padding: 0;
-    overflow: hidden;
+}
+
+.search-bar input {
+    background: #343a40;
     border: none;
-    position: relative;
-    padding: 0rem .5rem 0rem 1rem;
+    width: 80%;
+    height: 50px;
+    padding-left: 1rem;
+    color: white;
 }
 
-.search input {
-    position: absolute;
-    right: 0px;
-    width: 245px;
-    padding: 3px 10px;
-    font-size: 16px;
-    transform: translateX(calc(100% + 34px));
-    transition: transform 0.5s ease-in-out;
+.search-bar button {
+    height: 50px;
+    border: none;
+    background: #ff4847;
+    text-transform: capitalize;
+    color: white;
+    cursor: pointer;
+    padding: 0rem 1rem 0rem 1rem;
+    font-size: 1.2rem;
+}
+::placeholder {
+    font-size: 1rem;
+   
+    text-transform: capitalize;
 }
 
-.search.active input {
-    transform: translateX(-34px);
-}
 
-.search.active {
-    background: #e93314;
-    transition: box-shadow 1.5s;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
